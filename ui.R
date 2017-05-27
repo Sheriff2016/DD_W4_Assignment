@@ -30,7 +30,7 @@ shinyUI(fluidPage(
               h5("   1. the sample size -number of observations-"),
               h5("   2. the type of distribution"),
               h5("The chart adjusts automatically to reflect the effect of sample size on the distribuion."),
-              h5("" , a("ui.R & server.R code in Mauricio Vasquez' Github Repository", href="https://github.com/VasMau/Developing-Data-Products---Final-Assignment")) 
+              h5("" , a("ui.R & server.R code in Mauricio Vasquez' Github Repository", href="https://github.com/Sheriff2016/DD_W4_Assignment")) 
               ,
               plotOutput("distPlot")
     )
